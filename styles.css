@@ -96,3 +96,21 @@ body {
   border: 2px solid yellow;
   color: #555;
 }
+
+.hide {
+  opacity: 1;
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes a1 {
+  to {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}
